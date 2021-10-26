@@ -1,0 +1,21 @@
+.navbar {}
+
+.navbar--dark {
+    color: var(--theme-color-white);
+}
+
+.navbar--light {
+    color: var(--theme-color-dark-gray);
+}
+
+.c-post-card {}
+
+.c-post-card__img {
+    width: 100%;
+}
+
+.c-post-card__link {}
+
+.c-post-card__title {
+    display: block;
+}
