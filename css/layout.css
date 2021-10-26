@@ -33,17 +33,18 @@ nav {
         "mn"
         "as"
         "ft";
+    gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
     .o-page-layout--default {
-        grid-template-columns: 1fr minmax(440px, 800px) 0rem minmax(auto, 400px) 1fr;
+        grid-template-columns: 1fr minmax(440px, 800px) minmax(auto, 400px) 1fr;
         grid-auto-rows: 80px 30vh minmax(0, auto) 80px;
         grid-template-areas:
-            "nv nv nv nv nv"
-            "hd hd hd hd hd"
-            ". mn . as ."
-            "ft ft ft ft ft";
+            "nv nv nv nv"
+            "hd hd hd hd"
+            ". mn as ."
+            "ft ft ft ft";
     }
 }
 
