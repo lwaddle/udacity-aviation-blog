@@ -27,6 +27,35 @@
     display: block;
 }
 
+
+
+.c-breadcrumbs {
+    display: flex;
+}
+
+.c-breadcrumbs__list {
+    display: flex;
+    margin: 0;
+    padding: 1.5rem 0;
+    list-style-type: ">";
+}
+
+.c-breadcrumbs__item {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+}
+
+.c-breadcrumbs__item--no-style-type {
+    list-style-type: none;
+}
+
+.c-breadcrumbs__link {}
+
+
+
+
+
+
 /* TODO: Make global colors for the buttons */
 .c-btn {
     display: inline-block;
