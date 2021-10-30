@@ -12,7 +12,8 @@
     background-color: #fff;
 }
 
-.navbar__brand {
+.navbar__brand:link,
+.navbar__brand:visited {
     grid-area: brand;
     align-self: center;
     padding-left: 1rem;
@@ -26,12 +27,12 @@
 
 .navbar__icon--dark:link,
 .navbar__icon--dark:visited {
-    color: var(--theme-color-dark-gray, rgb(46, 46, 46));
+    color: var(--theme-color-dark-gray, rgb(46, 46, 46)) !important;
 }
 
 .navbar__icon--dark:hover,
 .navbar__icon--dark:active {
-    color: var(--theme-color-dark-alpha-5, rgba(58, 58, 58, 0.774));
+    color: var(--theme-color-dark-alpha-5, rgba(58, 58, 58, 0.774)) !important;
 }
 
 .navbar__item {
