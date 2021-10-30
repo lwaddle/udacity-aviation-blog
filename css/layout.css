@@ -6,6 +6,8 @@ aside {
 
 footer {
     grid-area: ft;
+    background-color: #fff;
+    border-top: 1px solid rgb(212, 212, 212);
 }
 
 header {
@@ -43,9 +45,9 @@ nav {
         grid-auto-rows: 80px 30vh minmax(0, auto) 80px;
         grid-template-areas:
             "nv nv nv nv"
-            "hd hd hd hd"
+            ". hd hd ."
             ". mn as ."
-            "ft ft ft ft";
+            ". ft ft .";
     }
 }
 
