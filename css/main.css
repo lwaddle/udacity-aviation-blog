@@ -1,5 +1,6 @@
 @import url(components.css);
 @import url(layout.css);
+@import url(navbar.css);
 @import url(utilities.css);
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
@@ -9,7 +10,7 @@
     --theme-color-300: #38598b;
     --theme-color-400: #113f67;
     --theme-color-dark: #113f67;
-    --theme-color-dark-alpha-5: #113f6780;
+    --theme-color-dark-alpha-5: #113f67c4;
     --theme-color-black: #000;
     --theme-color-dark-gray: #212529;
     --theme-color-white: #fff;

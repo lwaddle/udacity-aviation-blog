@@ -6,8 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    
+
     <!-- Main CSS -->
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dd68def1a2.js" crossorigin="anonymous"></script>
 
     <title>Fictional Aviation Blog</title>
 </head>
@@ -16,7 +21,18 @@
     <div class="o-page-layout o-page-layout--default">
 
         <!-- Navbar -->
-        <nav style="background-color: slateblue;">nav</nav>
+        <nav class="navbar">
+            <a class="navbar__brand u-fs-2" href="#">Aviation</a>
+            <button class="navbar__toggler" type="button">
+                <span class="navbar__icon navbar__icon--dark fas fa-bars fa-3x"></span>
+            </button>
+            <ul class="navbar__list navbar__list--hide">
+                <li class="navbar__item"><a class="navbar__link navbar__link--active" href="index.html">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Link 1</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Link 2</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Link 3</a></li>
+            </ul>
+        </nav>
 
         <!-- Header -->
         <header>
@@ -30,30 +46,39 @@
             <div class="o-container u-px-3 u-py-5">
                 <div class="o-container__item">
                     <h1>Takeoff Performance</h1>
-                    
+
                     <!-- Author Meta -->
                     <div class="c-author-meta u-my-4">
                         <div class="c-author-meta__profile-img-container">
-                            <img class="c-author-meta__profile-img" src="./img/author-profile-loren.jpg" alt="Picture of the author">
+                            <img class="c-author-meta__profile-img" src="./img/author-profile-loren.jpg"
+                                alt="Picture of the author">
                         </div>
                         <div class="c-author-meta__text-container">
                             <span class="c-author-meta__date">October 20, 2021</span>
                             <span class="c-author-meta__author-name">By <a href="#">Loren Waddle</a></span>
                         </div>
                     </div>
-                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio libero corrupti dolores at, quae aperiam placeat laborum doloribus, perferendis consectetur accusantium ad, ipsa perspiciatis sapiente rerum autem!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam et esse sapiente magni nihil, accusamus similique quod iusto. Nisi non est ullam! Dolore magnam hic provident explicabo, cumque mollitia ullam nulla dolorum, perferendis molestias possimus magni soluta id optio odio atque culpa quas cupiditate nemo. Labore iure aspernatur dolorem hic rem blanditiis.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio libero corrupti dolores at,
+                        quae aperiam placeat laborum doloribus, perferendis consectetur accusantium ad, ipsa
+                        perspiciatis sapiente rerum autem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam et esse sapiente magni nihil,
+                        accusamus similique quod iusto. Nisi non est ullam! Dolore magnam hic provident explicabo,
+                        cumque mollitia ullam nulla dolorum, perferendis molestias possimus magni soluta id optio odio
+                        atque culpa quas cupiditate nemo. Labore iure aspernatur dolorem hic rem blanditiis.</p>
                     <img class="u-w-100" src="https://via.placeholder.com/1200x800" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <ul>
                         <li>Lorem ipsum dolor sit amet consectetur.</li>
                         <li>Lorem ipsum dolor sit.</li>
-                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur labore. Quos.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, aspernatur labore.
+                            Quos.</li>
                     </ul>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nostrum libero?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias autem delectus consequatur officia, recusandae incidunt nihil at perspiciatis vero placeat enim distinctio illo saepe non repudiandae suscipit quibusdam libero veritatis fugiat? Architecto, est nisi!</p>
-                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias autem delectus
+                        consequatur officia, recusandae incidunt nihil at perspiciatis vero placeat enim distinctio illo
+                        saepe non repudiandae suscipit quibusdam libero veritatis fugiat? Architecto, est nisi!</p>
+
                     <div class="u-py-4 u-text-center">
                         <a class="c-btn c-btn--primary u-w-75" href="#">Read More</a>
                     </div>
@@ -65,7 +90,7 @@
         <aside>
             <div class="o-container u-px-3 u-py-5">
                 <div class="o-container__item">
-                    
+
                     <!-- Older Post Cards -->
                     <div class="o-container o-container--col">
                         <h3>Older Posts</h3>
@@ -75,7 +100,8 @@
                             <div class="c-post-card">
                                 <a class="c-post-card__link" href="#">
                                     <img class="c-post-card__img" src="https://via.placeholder.com/1200x800" alt="">
-                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the Departure Path? Considerations for every takeoff</span>
+                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the
+                                        Departure Path? Considerations for every takeoff</span>
                                 </a>
                             </div>
                         </div>
@@ -85,7 +111,8 @@
                             <div class="c-post-card">
                                 <a class="c-post-card__link" href="#">
                                     <img class="c-post-card__img" src="https://via.placeholder.com/1200x800" alt="">
-                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the Departure Path? Considerations for every takeoff</span>
+                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the
+                                        Departure Path? Considerations for every takeoff</span>
                                 </a>
                             </div>
                         </div>
@@ -95,7 +122,8 @@
                             <div class="c-post-card">
                                 <a class="c-post-card__link" href="#">
                                     <img class="c-post-card__img" src="https://via.placeholder.com/1200x800" alt="">
-                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the Departure Path? Considerations for every takeoff</span>
+                                    <span class="c-post-card__title u-text-center">Wet runway? Obstacles in the
+                                        Departure Path? Considerations for every takeoff</span>
                                 </a>
                             </div>
                         </div>
@@ -113,6 +141,7 @@
         </footer>
 
     </div>
+    <script src="navbar.js"></script>
 </body>
 
 </html>
