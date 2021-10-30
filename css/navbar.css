@@ -1,0 +1,71 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px minmax(0, auto);
+    grid-template-areas:
+        "brand toggler"
+        "list list";
+}
+
+.navbar__brand {
+    grid-area: brand;
+    align-self: center;
+    padding-left: 1rem;
+}
+
+.navbar__icon {
+    margin-left: auto;
+}
+
+.navbar__icon--dark {
+    color: var(--theme-color-dark-gray, rgb(46, 46, 46))
+}
+
+.navbar__icon--dark:hover {
+    color: var(--theme-color-dark-alpha-5, rgba(58, 58, 58, 0.774));
+}
+
+.navbar__item {
+
+}
+
+.navbar__list {
+    grid-area: list;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar__list--hide {
+    display: none;
+}
+
+.navbar__toggler {
+    grid-area: toggler;
+    margin-left: auto;
+    padding: 0 1rem 0 0;
+    border: 0;
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        grid-template-rows: minmax(80px, auto);
+        grid-template-areas:
+            "brand list";
+    }
+
+    .navbar__toggler {
+        display: none;
+    }
+
+    .navbar__list {
+        display: flex;
+        align-self: center;
+        justify-self: end;
+        margin: 0;
+    }
+
+    .navbar__item {
+        padding: 0 1rem;
+    }
+}
